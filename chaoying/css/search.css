@@ -1,0 +1,49 @@
+h2 {
+    text-align: center;
+    line-height: 50px;
+    background-color: #fff;
+    height: 50px;
+}
+.container {
+    background-color: white;
+}
+
+#search_box {
+    height: 40px;
+    background-color: #f3f3f3;
+    margin: 0 10px;
+    padding: 0 10px;
+    color: #999;
+}
+
+#search_box span{
+    font-family: iconfont;
+    font-size: 20px;
+    line-height: 40px;
+    float: left;
+}
+
+#search_box input{
+    height: 40px;
+    width: 70vw;
+    font-size: 16px;
+    margin-left: 10px;
+    border: 0;
+    outline: none;
+    background-color: transparent;
+}
+
+ul {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+li {
+    width: 26vw;
+    margin-top: 10px;
+}
+li img {
+    width: 100%;
+}

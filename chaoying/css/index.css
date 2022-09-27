@@ -1,0 +1,165 @@
+
+#top {
+    width: 100vw;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+}
+#top .swiper {
+    position: absolute;
+}
+#top img{
+    float: left;
+    display: block;
+    width: 100vw;
+    height: 200px;
+}
+
+.hot {
+    background-color: #fff;
+    margin-top: 5px;
+    padding: 20px 10px 5px 10px;
+}
+
+#chaoyin h3 span{
+    font-family: iconfont;
+    color: tomato;
+}
+
+#yugao h3 span{
+    font-family: iconfont;
+    color: lightgreen;
+}
+
+#chaoyin ul {
+    height: 185px;
+    margin-top: 10px;
+    overflow-x: scroll;
+    display: flex;
+    gap: 10px;
+}
+
+#chaoyin li {
+    height: 180px;
+    width: 100px;
+}
+
+
+#chaoyin li .title {
+    font-size: 16px;
+    font-weight: 800;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+#chaoyin li .score span {
+    font-size: 10px;
+    color: #ccc;
+}
+
+#chaoyin li .score span.iconfont{
+    font-family: iconfont;
+} 
+
+#yugao ul{
+    margin-top: 10px;
+    overflow-x: scroll;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#yugao li {
+    background-color: black;
+    position: relative;
+}
+#yugao li video {
+    width: 48vw;
+    height: 25vw;
+    opacity: .5;
+}
+
+#yugao li .video_btn {
+    font-family: iconfont;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+#xihuan h3 span{
+    font-family: iconfont;
+    color: lightblue;
+}
+#xihuan {
+    background-color: white;
+    padding: 20px 10px 70px 10px;
+}
+
+#xihuan ul {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#xihuan li {
+    width: 100%;
+    max-width: 380px;
+    height: 121px;
+    display: flex;
+}
+
+#xihuan li .zuo {
+    width: 100px;
+}
+#xihuan li .zuo img {
+    border-radius: 5px;
+}
+#xihuan li .zhong {
+    flex-grow: 1;
+    padding-left: 10px;
+    color: #aaa;
+    font-size: 14px;
+}
+#xihuan li .zhong p {
+    width: 150px;
+}
+
+#xihuan li .zhong .title {
+    width: 150px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 18px;
+    margin-top: 2px;
+    color: black;
+}
+#xihuan li .zhong .pingfen {
+    font-family: iconfont;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+#xihuan li .you {
+    width: 65px;
+    box-sizing: border-box;
+    border-left: 2px dashed #aaa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: orange;
+}
+
+#xihuan li .you p.iconfont {
+    font-family: iconfont;
+    font-size: 22px;
+}
+#xihuan li .you p {
+    font-size: 14px;
+}

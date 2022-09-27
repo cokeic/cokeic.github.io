@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>超英</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <h1 style="display: none;">超英</h1>
+
+    <h2 id="alert_user">请使用移动端打开</h2>
+
+    <div class="container">
+        <!-- 轮播图 -->
+        <div id="top">
+            <div class="swiper">
+                <!-- <img src="" alt=""> -->
+            </div>
+        </div>
+
+        <!-- 热门超英 -->
+        <div id="chaoyin" class="hot">
+            <h3>
+                <span class="iconfont">&#xe60e;</span>
+                热门超英
+            </h3>
+            <ul>
+                <!-- <li>
+                    <img width="100" src="http://122.152.205.72:88/superhero/DC/BatManTheDarkKnightRises/cover.jpg" alt="">
+                    <p class="title">蝙蝠侠:黑暗数据的疯狂</p>
+                    <p class="score">
+                        <span class="iconfont">&#xe66b;</span><span class="iconfont">&#xe66b;</span><span class="iconfont">&#xe66b;</span><span class="iconfont">&#xe66b;</span><span class="iconfont">&#xe66b;</span>
+                        <span class="num">9.1</span>
+                    </p>
+                </li> -->
+            </ul>
+        </div>
+
+        <!-- 热门预告 -->
+        <div id="yugao" class="hot">
+            <h3>
+                <span class="iconfont">&#xe615;</span>
+                热门预告
+            </h3>
+            <ul>
+                <!-- <li>
+                    <video controls="controls" poster="http://122.152.205.72:88/superhero/MARVEL/SpiderManHomecoming/poster.png" src="http://122.152.205.72:88/superhero/MARVEL/SpiderManHomecoming/trailer.mp4"></video>
+                    <div class="video_btn">&#xe64f;</div>
+                </li> -->
+            </ul>
+        </div>
+
+        <!-- 猜你喜欢 -->
+        <div id="xihuan">
+            <h3>
+                <span class="iconfont">&#xe62a;</span>
+                猜你喜欢
+            </h3>
+            <ul>
+                <!-- <li>
+                    <div class="zuo">
+                        <img width="90" src="http://122.152.205.72:88/superhero/DC/BatManTheDarkKnightRises/cover.jpg" alt="">
+                    </div>
+                    <div class="zhong">
+                        <p class="title">恶灵骑士1</p>
+                        <p class="pingfen">
+                            <span class="iconfont">&#xe66b;</span><span class="iconfont">&#xe66b;</span><span class="iconfont">&#xe66b;</span><span class="iconfont">&#xe66b;</span><span class="iconfont">&#xe66b;</span>
+                        </p>
+                        <p class="leixing">
+                            2018 / 美国 / 科幻 / 超级英雄
+                        </p>
+                        <p class="date">
+                            上映时间：2017-05-05(中国大陆) 
+                        </p>
+                    </div>
+                    <div class="you">
+                        <p class="iconfont">&#xe602;</p>
+                        <p>赞一下</p>
+                    </div>
+                </li> -->
+            </ul>
+        </div>
+
+        <!-- 底部导航栏 -->
+        <nav class="bottom">
+            <div id="shouye" class="check">
+                <p class="one">&#xe607;</p>
+                <p>首页</p>
+            </div>
+            <div id="sousuo">
+                <p class="two">&#xe601;</p>
+                <p>搜索</p>
+            </div>
+            <div id="wode">
+                <p class="two">&#xe624;</p>
+                <p>我的</p>
+            </div>
+        </nav>
+        
+    </div>
+</body>
+<script src="js/jq.min.js"></script>
+<script src="js/public.js"></script>
+<script>
+    // 全局变量
+    var sw = window.innerWidth;
+    window.onresize = function(){
+        sw = window.innerWidth;
+    }
+
+    
+</script>
+<script src="js/setindex.js"></script>
+<script>
+    runSlide(); // 轮播图
+    setchaoying(); // 热门超英
+    setremen(); // 热门预告
+    setxihuan(); // 猜你喜欢
+</script>
+</html>
